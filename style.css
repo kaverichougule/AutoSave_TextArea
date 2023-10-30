@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(#7a5df7,#AC34E7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    width: 470px;
+    background: #fff;
+    padding: 25px 25px 30px;
+}
+textarea{
+    padding: 10px;
+}
