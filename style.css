@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
 }
 body{
     background:linear-gradient(#7a5df7,#AC34E7);
@@ -14,7 +16,26 @@ body{
     width: 470px;
     background: #fff;
     padding: 25px 25px 30px;
+    border-radius: 5px;
 }
-textarea{
-    padding: 10px;
+h1{
+    text-align: center;
+}
+.container h2{
+    font-size: 28px;
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.reload{
+    cursor: pointer;
+    height: 20px;
+    width: 30px;
+}
+.reload:hover{
+    transform: scale(1.1);
 }
